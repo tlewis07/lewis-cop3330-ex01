@@ -1,0 +1,18 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Tristan Lewis
+ */
+package org.example;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class welcome1 {
+    // main method begins execution
+    public static void main(String[] args) {
+        String myname ="Tristan";
+        String greet = "What is your name? ";
+
+        System.out.println(greet + myname);
+        System.out.println("Hello, Tristan, nice to meet you!");
+    }
+}
